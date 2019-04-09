@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* CSS Document created by Shelby Joiner*/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 1.4em;
+	color: #FFFFFF;
+	background-color: #A17378;
+	padding: 0 40px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+}
+h1 {
+	font-size: 26px;
+	padding: 5px 0;
+	font-variant: normal;
+	line-height: 2em;
+}
+h2 {
+	font-size: 20px;
+	padding: 5px;
+	font-variant: normal;
+	background-color: #543C3F;
+}
+h3 {
+	font-size: 16px;
+	letter-spacing: 0.5em;
+	border-bottom-width: 1px;
+	border-bottom-style: inset;
+	border-bottom-color: #543C3F;
+	padding: 4px 0;
+	font-variant: small-caps;
+	font-style: italic;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	font-size:16px;
+	color: #543C3F;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #543C3F;
+	text-decoration: none;
+}
+a:hover {
+	color: #EEE8AA;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 10px;
+}
+ol {
+	margin-left: 12px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid ##543C3F 1px;
+}
+td {
+	padding: 6px;
+	border: solid #543C3F 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #543C3F;
+	text-align: center;
+	padding: 6px;
+	border: solid ##543C3F 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #543C3F 2px;
+}
+
+img {
+	border: solid #543C3F 2px;
+
+}
+
+iframe {
+	border: solid #543C3F 3px;
+	padding: 10px;
+	margin: 10px;
+}
