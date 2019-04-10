@@ -2,46 +2,55 @@
 /* CSS Document created by Shelby Joiner*/
 
 body {
+	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 13px;
 	line-height: 1.4em;
-	color: #FFFFFF;
-	background-color: #A17378;
+	color: #fff;
+	background-color: #D4979E;
 	padding: 0 40px;
 }
 
 /* basic text styles ----------------------------  */
 p, li, td {
 	letter-spacing: 0.1em;
-	color: #FFFFFF;
+	color: #000;
+	padding: 0 40px;
+	margin: 0;
 }
 h1 {
 	font-size: 26px;
-	padding: 5px 0;
-	font-variant: normal;
 	line-height: 2em;
+	font-variant: small-caps;
+	font-style: italic;
+	letter-spacing: 0.5em;
+	margin: 0;
+	padding: 0 40px;
 }
 h2 {
 	font-size: 20px;
-	padding: 5px;
+	color: #000;
+	line-height: 26px;
 	font-variant: normal;
-	background-color: #543C3F;
+	padding: 0 40px;
 }
 h3 {
 	font-size: 16px;
+	line-height:22px;
 	letter-spacing: 0.5em;
 	border-bottom-width: 1px;
 	border-bottom-style: inset;
 	border-bottom-color: #543C3F;
-	padding: 4px 0;
 	font-variant: small-caps;
 	font-style: italic;
+	background-color: #543C3F;
+	padding: 0 20px;
+	margin: 0;
 }
 
 /* link styles ---------------------------- */
 a:link {
 	font-weight: bold;
-	font-size:16px;
 	color: #543C3F;
 	text-decoration: none;
 }
@@ -57,7 +66,8 @@ a:hover {
 /* list styles ----------------------------- */
 ul li {
 	list-style-image: url(images/star.png);
-	margin-left: 10px;
+	margin: 0px;
+	padding: 0px;
 }
 ol {
 	margin-left: 12px;
@@ -65,7 +75,7 @@ ol {
 
 /* table styles -------------------------------------- */
 table {
-	border: solid ##543C3F 1px;
+	border: solid #543C3F 1px;
 }
 td {
 	padding: 6px;
@@ -76,7 +86,7 @@ th {
 	background-color: #543C3F;
 	text-align: center;
 	padding: 6px;
-	border: solid ##543C3F 1px;
+	border: solid #543C3F 1px;
 }
 
 /* border styles ------------------------------------ */
@@ -93,4 +103,44 @@ iframe {
 	border: solid #543C3F 3px;
 	padding: 10px;
 	margin: 10px;
+}
+/* Div Styles for page layout ------------------------*/
+#container {
+	width: 900px;
+	margin: 0 auto;
+	border: 4px #000;
+	background-color: #fff;
+	overflow: hidden;
+	border: 3px solid #000;
+}
+#header {
+	width: 100%;
+	background-color: #A17378;
+	border-bottom: 2px solid #000;
+}
+#content {
+	width:900;
+}
+#content-index {
+	width: 600px;
+	float: left;
+}
+#content-author {
+	width: 450px;
+	float: left;
+}
+#sidebar-index {
+	width: 300px;
+	float: left;
+	margin-top: 50px;
+}
+#sidebar-author {
+	width: 450px;
+	float: left;
+}
+#footer {
+	width: 100%;
+	background-color: #A17378;
+	border-top: 2px solid #000;
+	clear: both;
 }
